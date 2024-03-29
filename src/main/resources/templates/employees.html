@@ -38,7 +38,7 @@
                     </td>
 
                     <td> 
-                        <form th:action="@{/delete/confirm(employeeId=${employee.employeeId})}" method="post">
+                        <form th:action="@{/delete/confirm(employeeId=${employee.employeeId})}" method="post" onsubmit="return confirm('¿Está seguro de que desea eliminar al empleado?')">
                             <button type="submit">DELETE</button> 
                         </form>
                     </td>

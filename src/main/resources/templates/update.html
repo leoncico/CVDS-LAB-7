@@ -13,16 +13,26 @@
 
         <form th:action="@{/update/confirm}" method="post" onsubmit="return confirm('¿Está seguro de que desea actualizar al empleado?')">
             
+
             <input type="hidden" name="employeeId" th:value="${employeeId}" />
 
-            <label for="role">FIRTS NAME:</label>
-            <input type="text" id="firstName" name="firstName" required><br>
-    
-            <label for="salary">LAST NAME:</label>
-            <input type="text" id="lastName" name="lastName" required><br>
-    
-            <button type="submit">Actualizar Empleado</button>
+            <div class="inputs">
+            
+                <div class="xd">
+                    <label for="role">FIRTS NAME:</label>
+                    <input type="text" id="firstName" name="firstName" required><br>
+                </div>
+
+                <div class="xd">
+                    <label for="salary">LAST NAME:</label>
+                    <input type="text" id="lastName" name="lastName" required><br>
+                </div>
+            
+            </div>
+
         </form>
+
+        <button type="submit">Actualizar Empleado</button>
     </div>
 </body>
 
