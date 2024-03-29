@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employees</title>
+    <link rel="stylesheet" href="employees.css">
+</head>
+
+    <body>
+
+        <div id="div1" >
+            <h1 class="tittle">Crear Empleado</h1>
+            <form th:action="@{/new/confirm}" method="post" onsubmit="return confirm('¿Está seguro de que desea crear un empleado?')">
+
+                <div class="inputs">
+                    <label for="employeeId">EMPLOYEE ID</label>
+                    <input type="text" id="employeeId" name="employeeId" required><br>
+                </div>
+
+                <div class="inputs">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" required><br>
+                </div>
+                    
+            
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName" required><br>
+            
+                    <label for="role">ROLE</label>
+                    <input type="text" id="role" name="role" required><br>
+            
+                    <label for="salary">SALARY</label>
+                    <input type="text" id="salary" name="salary" required><br>
+        
+                <button type="submit">Crear Empleado</button>
+            </form>
+        </div>
+    </body>
+
+</html>

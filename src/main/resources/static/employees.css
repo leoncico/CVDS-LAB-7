@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+}
+
+#div1 {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+td,th {
+    border-bottom: 1px solid #ddd;
+    width: 150px;
+    height: 50px;
+    text-align: left;
+}
+
+.tittle {
+    margin-bottom: 100px;
+}
+
+#employeeTable {
+    margin-bottom: 80px;
+}
+
+.filas {
+    margin-top: 100px;
+}
+
+button {
+        background-color: rgb(89, 89, 236);
+        color: rgb(255, 255, 255);
+        border-color: rgb(89, 89, 236);
+        height: 35px;
+        width: 100px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        cursor: pointer;
+        transition: background-color 1s, color 1s;
+    }
+
+input {
+    margin-bottom: 50px;
+    background-color: aquamarine;
+}
+
+label {
+    background-color: bisque;
+    margin-right: 100px;
+    width: 100px;
+}
