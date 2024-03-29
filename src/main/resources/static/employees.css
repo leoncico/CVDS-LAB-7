@@ -41,11 +41,22 @@ button {
 
 input {
     margin-bottom: 50px;
-    background-color: aquamarine;
+    margin-left: 100px;
+    width: 20%;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
 }
 
 label {
-    background-color: bisque;
-    margin-right: 100px;
-    width: 100px;
+    width: 30%;
 }
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+

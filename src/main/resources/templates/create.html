@@ -9,18 +9,16 @@
     <body>
 
         <div id="div1" >
-            <h1 class="tittle">Crear Empleado</h1>
+            <h1 class="tittle">CREATE NEW EMPLOYEE</h1>
             <form th:action="@{/new/confirm}" method="post" onsubmit="return confirm('¿Está seguro de que desea crear un empleado?')">
 
                 <div class="inputs">
                     <label for="employeeId">EMPLOYEE ID</label>
                     <input type="text" id="employeeId" name="employeeId" required><br>
-                </div>
-
-                <div class="inputs">
+               
                     <label for="firstName">FIRST NAME</label>
                     <input type="text" id="firstName" name="firstName" required><br>
-                </div>
+          
                     
             
                     <label for="lastName">LAST NAME</label>
@@ -32,6 +30,8 @@
                     <label for="salary">SALARY</label>
                     <input type="text" id="salary" name="salary" required><br>
         
+                </div>
+
                 <button type="submit">Crear Empleado</button>
             </form>
         </div>
