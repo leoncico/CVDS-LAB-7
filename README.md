@@ -7,7 +7,7 @@
 
 Link para acceder a la aplicacion de MyShuttle en Microsoft Azure: (AGREGAR)
 
-Path para acceder a la interfaz de Empleados y todas sus funciones: localhost:8080*puerto asignado*/employees
+Path para acceder a la interfaz de Empleados y todas sus funciones: localhost:8080* o puerto asignado*/employees
 
 
 
