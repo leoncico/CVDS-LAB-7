@@ -1,6 +1,13 @@
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=PDSW-ECI_spring-mvc-with-bootstrap)](https://sonarcloud.io/summary/new_code?id=PDSW-ECI_spring-mvc-with-bootstrap)
+# CVDS - LAB7
+*Integrantes*
 
-# MVC + Bootstrap CSS
+- **David Leonardo Piñeros Cortés**
 
-## Structure Directory
-https://studygyaan.com/spring-boot/spring-boot-project-folder-structure-and-best-practices
+- **Camilo Nicolas Murcia Espinosa**
+
+Link para acceder a la aplicacion de MyShuttle en Microsoft Azure: (AGREGAR)
+
+Path para acceder a la interfaz de Empleados y todas sus funciones: localhost:*puerto asignado*/employees
+
+
+
