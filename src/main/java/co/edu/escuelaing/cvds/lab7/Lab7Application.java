@@ -38,16 +38,16 @@ public class Lab7Application {
 	@Bean
 	public CommandLineRunner run() {
 		return (args) -> {
-			log.info("Adding Configurations....");
-			configurationService.addConfiguration(new Configuration("premio", "810000"));
-			configurationService.addConfiguration(new Configuration("descuento", "0.1"));
-			configurationService.addConfiguration(new Configuration("app-name", "Miraculous: Las Aventuras de Ladybug"));
+			// log.info("Adding Configurations....");
+			// configurationService.addConfiguration(new Configuration("premio", "810000"));
+			// configurationService.addConfiguration(new Configuration("descuento", "0.1"));
+			// configurationService.addConfiguration(new Configuration("app-name", "Miraculous: Las Aventuras de Ladybug"));
 
-			log.info("\nGetting all configurations....");
-			configurationService.getAllConfigurations().forEach(configuration -> System.out.println(configuration));
+			// log.info("\nGetting all configurations....");
+			// configurationService.getAllConfigurations().forEach(configuration -> System.out.println(configuration));
 
-			log.info("\nAdding admin@site.org user with Password: admin");
-			userRepository.save(new User("admin@site.org", "admin", Arrays.asList(UserRole.ADMINISTRADOR, UserRole.CLIENTE)));
+			// log.info("\nAdding admin@site.org user with Password: admin");
+			// userRepository.save(new User("admin@site.org", "admin", Arrays.asList(UserRole.ADMINISTRADOR, UserRole.CLIENTE)));
 		};
 	}
 
