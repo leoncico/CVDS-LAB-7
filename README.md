@@ -5,7 +5,7 @@
 
 - **Camilo Nicolas Murcia Espinosa**
 
-Link para acceder a la aplicacion de MyShuttle en Microsoft Azure: (AGREGAR)
+Link para acceder a la aplicacion de MyShuttle en Microsoft Azure: https://myapplab06.azurewebsites.net/myshuttledev/
 
 Path para acceder a la interfaz de Empleados y todas sus funciones: localhost:8080 *o puerto asignado* /employees
 
